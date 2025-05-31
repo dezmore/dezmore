@@ -1,1 +1,46 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ulang Tahun</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-section">
+    <h1>Selamat Datang!</h1>
+    <p>Tantang dirimu untuk bermain sebelum hadiah ulang tahun spesial!</p>
+    <button id="start-game">Mulai Permainan</button>
+  </div>
+
+  <!-- Pop-Up Modal Section -->
+  <div id="popup" class="hidden">
+    <div class="popup-content">
+      <p>Test satu</p>
+      <button id="love-you">Love You!</button>
+    </div>
+  </div>
+
+  <!-- Div Animasi Kembang Api -->
+  <div id="fireworks" class="hidden"></div>
+
+  <!-- Section Kolase Foto -->
+  <div id="birthday-section" class="hidden">
+    <h2>🎉 Happy Birthday, Pacar Tercinta! 🎉</h2>
+    <div class="photo-collage">
+      <img src="foto1.jpg" alt="Foto 1">
+      <img src="foto2.jpg" alt="Foto 2">
+      <img src="foto3.jpg" alt="Foto 3">
+      <!-- Tambahkan lebih banyak foto jika perlu -->
+    </div>
+  </div>
+
+  <!-- Audio -->
+  <audio id="background-music" loop>
+    <source src="lagu_jamrud.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
